@@ -2,8 +2,13 @@ const libraries = [{ branch: 'downtown' }, { branch: 'riverside' }];
 
 // The branch field of a book indicates which library has it in stock
 const books = [
-  { title: 'The Awakening', author: 'Kate Chopin', branch: 'riverside' },
-  { title: 'City of Glass', author: 'Paul Auster', branch: 'downtown' },
+  {
+    id: '1',
+    name: 'The Awakening',
+    author: 'Kate Chopin',
+    branch: 'riverside',
+  },
+  { id: '2', name: 'City of Glass', author: 'Paul Auster', branch: 'downtown' },
 ];
 
 // Resolver map

@@ -1,1 +1,1 @@
-require('./examples/nested-query-with-mutation');
+require('./examples/basci-query');
